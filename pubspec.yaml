@@ -1,7 +1,8 @@
-name: firestore_update
-description: Experiment 9 - 24CS2016 Building Applications using Flutter
-publish_to: 'none'
-version: 1.0.0+1
+name: exp9
+description: Flutter experiment 9 - an app that updates documents in Cloud Firestore.
+version: 1.0.0
+homepage: https://github.com/Amal-0807/exp9_firestore_update
+repository: https://github.com/Amal-0807/exp9_firestore_update
 
 environment:
   sdk: '>=3.4.0 <4.0.0'

@@ -1,4 +1,19 @@
-# Experiment 9
+# exp9
+
+Flutter experiment 9 - an app that updates documents in Cloud Firestore.
+
+## Use
+
+```
+flutter pub add exp9
+```
+
+```dart
+import 'package:exp9/exp9.dart';
+
+runApp(const UpdateApp());
+```
+
 
 ## One-time Firebase setup (needed before it runs)
 This experiment uses Google Cloud Firestore. The file `lib/firebase_options.dart`
@@ -16,3 +31,14 @@ is created for your own Firebase project and is not included here.
 2. Open a terminal and run:  flutter pub get
 3. Pick a device (Android phone, emulator, Chrome) from the bottom-right corner.
 4. Press F5 or run:  flutter run
+
+## Firebase setup
+
+This package ships with placeholder Firebase options. Before running, create your own Firebase project and run:
+
+```
+dart pub global activate flutterfire_cli
+flutterfire configure
+```
+
+This regenerates `lib/firebase_options.dart` and `android/app/google-services.json` for your project.
